@@ -1,7 +1,7 @@
-from datetime import datetime
+from django.utils.timezone import now
 
 
 def year(request):
     return {
-      request, datetime.now().date()
+        'year': now().year
     }
