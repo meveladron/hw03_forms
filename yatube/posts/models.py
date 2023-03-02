@@ -46,7 +46,6 @@ class Post(models.Model):
         on_delete=models.CASCADE,
         verbose_name='Автор',
         related_name='posts'
-        
     )
     group = models.ForeignKey(
         Group,
