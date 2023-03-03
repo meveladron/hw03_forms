@@ -6,7 +6,7 @@
     Все записи автора {{ author.get_full_name }}
   </h1>
   <h5>
-    Количество записей: {{ count }}
+    Количество записей: {{ author.posts.count }}
   </h5>
   <br>
   {% for post in page_obj %}
