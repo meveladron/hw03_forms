@@ -1,13 +1,12 @@
-<!-- templates/about/tech.html -->
 {% extends "base.html" %}
 {% load static %}
 {% block title %}Технологии{% endblock %}
+<main>
 {% block content %}
 <div class="container col-lg-11 col-sm-12">
 <div class="row">
-  <h2>Технологии</h2>
-
-  <div class="row row-cols-1 row-cols-md-6 g-4">
+  <h1>Технологии</h1>
+  <div class="row row-cols-2 row-cols-md-6 g-4">
     <div class="col">
       <div class="tech_card">
         <div class="card">
@@ -78,4 +77,7 @@
       В качестве хранения информации используется СУБД SQLite."</p>
   </div>
 </div>
+</div>
+</div>
+</main>
 {% endblock %}
